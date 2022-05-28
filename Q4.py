@@ -1,7 +1,5 @@
 # QUESTION 4
-
-string=input()
-if 'name' in string:
-    print("Yes")
-else:
-    print('No')
+ 
+for n_candy in range(1, 200):
+    if n_candy % 5 == 2 and n_candy % 6 == 3 and n_candy % 7 == 2:
+        print('Number of candy in bowl :',n_candy)

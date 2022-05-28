@@ -1,9 +1,9 @@
 # QUESTION 2
-
-name='Hemang Bansal'
-dep_name='Mechanical'
-sid=21107079
-cgpa=9.4
-print('Hey,',name,'Here!')
-print("My SID is",sid)
-print('I am from',dep_name,'department and my CGPA is',cgpa)
+ 
+year=int(input('Enter year : '))
+if year%400==0:
+    print('Leap Year')
+elif year%4==0 and year%100!=0:
+    print('Leap Year')
+else:
+    print('Not a leap year')
